@@ -106,11 +106,11 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={i1} />
             <s.SpacerMedium />
-            <s.TextTitle
+            {/* <s.TextTitle
               style={{ textAlign: "center", fontSize: 35, fontWeight: "bold" }}
             >
               {data.totalSupply}/250
-            </s.TextTitle>
+            </s.TextTitle> */}
           </s.Container>
           <s.SpacerMedium />
           <s.Container
@@ -119,7 +119,7 @@ function App() {
             ai={"center"}
             style={{ backgroundColor: "#383838", padding: 24 }}
           >
-            {Number(data.totalSupply) == 1000 ? (
+            {Number(data.totalSupply) == 250 ? (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
                   The sale has ended.
